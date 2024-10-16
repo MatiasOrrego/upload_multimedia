@@ -4,7 +4,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import path from "node:path";
 
-import { productsRoutes } from "./routes/products.routes";
+import { productsRoutes } from "./routes/products.routes.js";
 
 const app = express();
 
